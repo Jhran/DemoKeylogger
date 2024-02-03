@@ -27,7 +27,7 @@ void logger_task(void *pvParameters)
         if (xEventGroupWaitBits(uart_semaphore, BIT(3), pdFALSE, pdTRUE, portMAX_DELAY))
         {
             CH9350_get_key_data(uart_data, &new_key_data);
-            keyboard_send_all_key_pressed(hid_queue_test, old_key_data, new_key_data);
+            keyboard_send_all_key_state(hid_queue_test, old_key_data, new_key_data);
             old_key_data = new_key_data;
             xEventGroupSetBits(uart_semaphore, BIT(0));
         }
