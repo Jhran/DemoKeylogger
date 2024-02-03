@@ -1,0 +1,21 @@
+管理员执行
+
+I:\ProgramFiles\ESP-IDF\.espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe I:\ProgramFiles\ESP-IDF\esp-idf\components\esptool_py\esptool\esptool.py flash_id
+
+esptool.py v4.7.dev2
+Found 1 serial portses
+Serial port COM8
+Connecting....
+Detecting chip type... ESP32-S3
+Chip is ESP32-S3 (QFN56) (revision v0.2)
+Features: WiFi, BLE, Embedded PSRAM 8MB (AP_3v3)
+Crystal is 40MHz
+MAC: 74:4d:bd:7f:92:24
+Uploading stub...
+Running stub...
+Stub running...
+Manufacturer: 5e
+Device: 4018
+Detected flash size: 16MB
+Flash type set in eFuse: quad (4 data lines)
+Hard resetting via RTS pin...

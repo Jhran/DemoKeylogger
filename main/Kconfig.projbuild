@@ -1,0 +1,17 @@
+menu "Keylogger Configuration"
+
+    config KEYLOGGER_UART_PORT_NUM
+        int "It can't work now.Using configKeyogger.h"
+        range 0 1
+        default 1
+        help
+            UART communication port number for the example.
+            See UART documentation for available port numbers.
+
+    config KEYLOGGER_UART_BAUD_RATE
+        int "UART communication speed"
+        range 1200 115200
+        default 115200
+        help
+            UART communication speed for Modbus example.
+endmenu

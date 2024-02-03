@@ -1,0 +1,48 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.adapterTargetName": "esp32s3",
+    "idf.customExtraPaths": "i:\\ProgramFiles\\ESP-IDF\\.espressif\\tools\\xtensa-esp-elf-gdb\\12.1_20221002\\xtensa-esp-elf-gdb\\bin;i:\\ProgramFiles\\ESP-IDF\\.espressif\\tools\\riscv32-esp-elf-gdb\\12.1_20221002\\riscv32-esp-elf-gdb\\bin;i:\\ProgramFiles\\ESP-IDF\\.espressif\\tools\\xtensa-esp32-elf\\esp-12.2.0_20230208\\xtensa-esp32-elf\\bin;i:\\ProgramFiles\\ESP-IDF\\.espressif\\tools\\xtensa-esp32s2-elf\\esp-12.2.0_20230208\\xtensa-esp32s2-elf\\bin;i:\\ProgramFiles\\ESP-IDF\\.espressif\\tools\\xtensa-esp32s3-elf\\esp-12.2.0_20230208\\xtensa-esp32s3-elf\\bin;i:\\ProgramFiles\\ESP-IDF\\.espressif\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin;i:\\ProgramFiles\\ESP-IDF\\.espressif\\tools\\esp32ulp-elf\\2.35_20220830\\esp32ulp-elf\\bin;i:\\ProgramFiles\\ESP-IDF\\.espressif\\tools\\cmake\\3.24.0\\bin;i:\\ProgramFiles\\ESP-IDF\\.espressif\\tools\\openocd-esp32\\v0.12.0-esp32-20230419\\openocd-esp32\\bin;i:\\ProgramFiles\\ESP-IDF\\.espressif\\tools\\ninja\\1.10.2;i:\\ProgramFiles\\ESP-IDF\\.espressif\\tools\\idf-exe\\1.0.3;i:\\ProgramFiles\\ESP-IDF\\.espressif\\tools\\ccache\\4.8\\ccache-4.8-windows-x86_64;i:\\ProgramFiles\\ESP-IDF\\.espressif\\tools\\dfu-util\\0.11\\dfu-util-0.11-win64;i:\\ProgramFiles\\ESP-IDF\\.espressif\\tools\\esp-rom-elfs\\20230320",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "i:\\ProgramFiles\\ESP-IDF\\.espressif\\tools\\openocd-esp32\\v0.12.0-esp32-20230419/openocd-esp32/share/openocd/scripts",
+        "IDF_CCACHE_ENABLE": "1",
+        "ESP_ROM_ELF_DIR": "i:\\ProgramFiles\\ESP-IDF\\.espressif\\tools\\esp-rom-elfs\\20230320/"
+    },
+    "idf.espIdfPathWin": "i:\\ProgramFiles\\ESP-IDF\\esp-idf",
+    "idf.openOcdConfigs": [
+        "board/esp32s3-bridge.cfg"
+    ],
+    "idf.pythonBinPathWin": "i:\\ProgramFiles\\ESP-IDF\\.espressif\\python_env\\idf5.1_py3.11_env\\Scripts\\python.exe",
+    "idf.toolsPathWin": "i:\\ProgramFiles\\ESP-IDF\\.espressif",
+    "files.associations": {
+        "ch9350_decode.h": "c",
+        "array": "c",
+        "string": "c",
+        "string_view": "c",
+        "stdio.h": "c",
+        "keyboard_sender.h": "c",
+        "task.h": "c",
+        "string.h": "c",
+        "sdkconfig.h": "c",
+        "esp_log.h": "c",
+        "keyboard_decode.h": "c",
+        "keyboard_forward.h": "c",
+        "uart.h": "c",
+        "config.h": "c",
+        "configkeylogger.h": "c",
+        "key_event_queue.h": "c",
+        "unordered_map": "c",
+        "random": "c",
+        "hid_queue.h": "c",
+        "forward.h": "c",
+        "logger.h": "c",
+        "nvs_flash.h": "c",
+        "esp_http_server.h": "c",
+        "mouse_decode.h": "c",
+        "printkey.h": "c",
+        "forward_task.h": "c",
+        "logger_task.h": "c"
+    },
+    "idf.flashType": "UART",
+    "idf.portWin": "COM8",
+    "C_Cpp.default.compilerPath": "I:\\ProgramFiles\\ESP-IDF\\.espressif\\tools\\xtensa-esp32s3-elf\\esp-12.2.0_20230208\\xtensa-esp32s3-elf\\bin\\xtensa-esp32s3-elf-gcc.exe"
+}
