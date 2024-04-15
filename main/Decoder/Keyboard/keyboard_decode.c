@@ -117,7 +117,7 @@ void keyboard_send_normal_key_state(hid_queue_t hid_queue, keyboard_data_t oldke
         i += 1;
     }
 }
-void keyboard_send_all_key_state(hid_queue_t hid_queue, keyboard_data_t oldkeydata, keyboard_data_t newkeydata)
+void keyboard_send_all_key_pressed(hid_queue_t hid_queue, keyboard_data_t oldkeydata, keyboard_data_t newkeydata)
 {
     keyboard_send_modifter_key_state(hid_queue, oldkeydata, newkeydata);
     keyboard_send_normal_key_state(hid_queue, oldkeydata, newkeydata);
